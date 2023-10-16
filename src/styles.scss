@@ -1,0 +1,49 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+   
+    width: 400px;
+    border: solid $primary-color 2px;
+    border-radius: 5px;
+    box-shadow: $primary-color;
+    margin: 10px;
+
+    .box {
+         display: flex;
+         justify-content: space-arround;
+         align-items: center;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .image {
+        width: 50%;
+        padding: 10px;
+    }
+
+    img {
+        width: 40%;
+    }
+
+    .info {
+        color: $primary-color;
+        font-family: $font-stack;
+    }
+
+    .avis {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+}
